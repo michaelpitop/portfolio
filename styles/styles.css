@@ -401,6 +401,37 @@ section {
   position: relative;
 }
 
+.about-stats .progress-bars .progress-bar .progress-con .progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: var(--color-secondary);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  width: 70%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .html {
+  width: 70%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .css {
+  width: 0;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .js {
+  width: 0;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .react {
+  width: 0;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .ruby {
+  width: 0;
+}
+
 .btn-con {
   display: -webkit-box;
   display: -ms-flexbox;
