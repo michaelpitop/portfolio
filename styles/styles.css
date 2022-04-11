@@ -96,6 +96,10 @@ section {
   background-color: #86a186;
 }
 
+.active {
+  display: block;
+}
+
 .controls {
   position: fixed;
   z-index: 10;
