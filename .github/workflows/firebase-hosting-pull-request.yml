@@ -13,4 +13,4 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_A8AFD }}'
-          projectId: portfolio-a8afd
+          projectId: portfolio-245dd
